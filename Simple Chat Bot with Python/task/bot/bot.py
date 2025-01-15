@@ -1,6 +1,16 @@
-# Stage 1/5
-bot_name = "Aid"
-birth_year = 2023
+# Stage 2/5
+def greet(bot_name, birth_year):
+    print(f"Hello! My name is {bot_name}.")
+    print(f"I was created in {birth_year}.")
 
-print("Hello! My name is Aid.")
-print("I was created in 2023.")
+
+def remind_name():
+    print("Please, remind me your name.")
+    your_name = input()
+    # reading a name
+    print(f"What a great name you have, {your_name}!")
+
+
+# Now we can use these functions
+greet("Aid", 2023)
+remind_name()
