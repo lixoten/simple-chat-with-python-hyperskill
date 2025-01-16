@@ -1,6 +1,7 @@
 # Python Projects from Hyperskill using PyCharm IDE #
 ###################
 .idea
+Topics
 *.yaml
 requirements.txt
 my-notes.txt
